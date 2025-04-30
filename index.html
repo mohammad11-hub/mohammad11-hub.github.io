@@ -13,8 +13,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@300;500&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="img/potfolio.css">
-
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -32,13 +31,11 @@
                     <li class="nav-item"><a class="nav-link" href="#about"><i class="fas fa-user"></i> About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#skills"><i class="fas fa-tools"></i> Skills</a></li>
                     <li class="nav-item"><a class="nav-link" href="#projects"><i class="fas fa-project-diagram"></i>
-                            Projects</a>
-                    </li>
-                    <!-- <li class="nav-item"><a class="nav-link" href="#experience"><i class="fas fa-briefcase"></i> Experience</a>
-          </li> -->
+                            Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience"><i class="fas fa-briefcase"></i>
+                            Experience</a></li>
                     <li class="nav-item"><a class="nav-link" href="#education"><i class="fas fa-graduation-cap"></i>
-                            Education</a>
-                    </li>
+                            Education</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact"><i class="fas fa-envelope"></i> Contact</a>
                     </li>
                 </ul>
@@ -50,14 +47,13 @@
     <section id="home" class="section">
         <div class="container">
             <div class="home-content">
-                <img src="img/2.jpg" class="home-img" alt="Mohammad Husain">
-                <h1 class="home-name">Mohammad Husain
-                    <p class="home-text" id="text">I AM <span class="h1"></span></p>
-                    <p class="home-text">BCA Student | Aspiring Full-Stack Developer | Passionate about Web Development
-                        & Data
-                        Management</p>
-
-                </h1>
+                <img src="https://via.placeholder.com/200?text=Your+Photo" class="home-img" alt="Mohammad Husain">
+                <h1 class="home-name">Mohammad Husain</h1>
+                <p class="home-text">I am a <span id="typing-text"></span><span class="cursor">|</span></p>
+                <div class="home-buttons">
+                    <a href="#projects" class="home-btn">My Work</a>
+                    <a href="resume.pdf" class="home-btn">Resume</a>
+                </div>
             </div>
         </div>
     </section>
@@ -69,12 +65,10 @@
             <div class="row">
                 <div class="col-md-8 mx-auto text-center">
                     <p>Hello, I'm Mohammad Husain, a BCA student at Maktabah Jafariyah. I specialize in HTML, CSS,
-                        JavaScript,
-                        PHP, basic Python, and Bootstrap 5 to streamline project workflows and enhance team
-                        collaboration. I'm
-                        continuously advancing my backend expertise while preparing to expand into full-stack
-                        development.
-                        Additionally, I have skills in Advanced Excel and creating dynamic dashboards.</p>
+                        JavaScript, PHP, basic Python, and Bootstrap 5 to streamline project workflows and enhance team
+                        collaboration. I'm continuously advancing my backend expertise while preparing to expand into
+                        full-stack development. Additionally, I have skills in Advanced Excel and creating dynamic
+                        dashboards.</p>
                 </div>
             </div>
         </div>
@@ -103,63 +97,51 @@
     <section id="projects" class="section">
         <div class="container">
             <h2 class="text-center mb-5"><i class="fas fa-project-diagram"></i> Frontend Mini Projects</h2>
-            <div class="row d-flex justify-content-center flex-wrap">
-
-
-                <div class="card m-3" style="width: 18rem; ">
-                    <img src="img/paper.jpg" class="project-img" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Stone Paper Scissor game project.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-                <div class="card m-3" style="width: 18rem;">
-                    <img src="img/simon.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Simaon says game project.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-                <div class="card m-3" style="width: 18rem;">
-                    <img src="img/todo.jpg" class="card-img-top mt-5 p-" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">to do project</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-                <!-- <div class="col-md-6 mb-4">
+            <div class="row">
+                <div class="col-md-6 mb-4">
                     <div class="card">
-                        <img src="5.jpg" class="card-img-top project-img" alt="Stone Paper Scissors">
+                        <img src="https://via.placeholder.com/400x220?text=To-Do+App" class="card-img-top project-img"
+                            alt="To-Do App">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-tasks"></i> To-Do App</h5>
+                            <p class="card-text">A simple and intuitive application to manage tasks, built using HTML,
+                                CSS, and JavaScript.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/400x220?text=Stone+Paper+Scissors"
+                            class="card-img-top project-img" alt="Stone Paper Scissors">
                         <div class="card-body">
                             <h5 class="card-title"><i class="fas fa-gamepad"></i> Stone Paper Scissors</h5>
                             <p class="card-text">An interactive game where users play against the computer, developed
-                                with HTML, CSS,
-                                and JavaScript.</p>
+                                with HTML, CSS, and JavaScript.</p>
                         </div>
                     </div>
-                </div> -->
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Work Experience Section -->
-    <!-- <section id="experience" class="section">
-    <div class="container">
-      <h2 class="text-center mb-5"><i class="fas fa-briefcase"></i> Work Experience</h2>
-      <div class="row">
-        <div class="col-md-8 mx-auto">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title"><i class="fas fa-laptop-code"></i> Freelancer</h5>
-              <p class="card-text">Ongoing in 2025</p>
-              <p class="card-text">Working on various freelance projects, applying skills in web development and data
-                management.</p>
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="text-center mb-5"><i class="fas fa-briefcase"></i> Work Experience</h2>
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-laptop-code"></i> Freelancer</h5>
+                            <p class="card-text">Ongoing in 2025</p>
+                            <p class="card-text">Working on various freelance projects, applying skills in web
+                                development and data management.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </section> -->
+    </section>
 
     <!-- Education Section -->
     <section id="education" class="section">
@@ -188,8 +170,7 @@
                     <p><i class="fas fa-envelope"></i> Email: <a href="mailto:mmdsunasara@gmail.com"
                             class="contact-link">mmdsunasara@gmail.com</a></p>
                     <p><i class="fas fa-phone"></i> Contact: <a href="tel:+917383829440" class="contact-link">+91
-                            7383829440</a>
-                    </p>
+                            7383829440</a></p>
                     <p><i class="fab fa-linkedin"></i> LinkedIn: <a
                             href="https://www.linkedin.com/in/mohammadhusain-sunasara"
                             class="contact-link">Mohammadhusain Sunasara</a></p>
@@ -202,21 +183,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
     <!-- Smooth Scroll for Navbar Links -->
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-
-
-
     <script>
-
-        var typed = new Typed('.h1', {
-            strings: ['frontend developer', 'web disigner' ],
-            typeSpeed: 150,
-            backSpeed: 150,
-            loop: true,
-            cursorChar: '|',
-            behavior: 'insert',
-            // showCursor: true,
-        });
         document.querySelectorAll('.nav-link').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
@@ -227,6 +194,49 @@
                     behavior: 'smooth'
                 });
             });
+        });
+    </script>
+    <!-- Auto-typing Effect -->
+    <script>
+        const texts = [
+            "BCA Student",
+            "Aspiring Full-Stack Developer",
+            "Passionate about Web Development",
+            "Skilled in Data Management"
+        ];
+        let textIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+        const typingSpeed = 100; // Speed of typing (ms)
+        const deletingSpeed = 50; // Speed of deleting (ms)
+        const pauseBetween = 2000; // Pause before deleting (ms)
+
+        function type() {
+            const currentText = texts[textIndex];
+            const typingElement = document.getElementById("typing-text");
+
+            if (!isDeleting && charIndex < currentText.length) {
+                typingElement.textContent = currentText.substring(0, charIndex + 1);
+                charIndex++;
+                setTimeout(type, typingSpeed);
+            } else if (isDeleting && charIndex > 0) {
+                typingElement.textContent = currentText.substring(0, charIndex - 1);
+                charIndex--;
+                setTimeout(type, deletingSpeed);
+            } else if (!isDeleting && charIndex === currentText.length) {
+                setTimeout(() => {
+                    isDeleting = true;
+                    type();
+                }, pauseBetween);
+            } else if (isDeleting && charIndex === 0) {
+                isDeleting = false;
+                textIndex = (textIndex + 1) % texts.length;
+                setTimeout(type, typingSpeed);
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", () => {
+            setTimeout(type, 500);
         });
     </script>
 </body>
